@@ -175,31 +175,66 @@ button {
 }
 
 
-@media (max-width: 600px) {
-
-    .container-moon {
-        width: 85vh;
-    }
-    .moon-button {
-        flex-direction: column;
-        align-self: center flex-end;
-    }
+@media (max-width: 500px) {
 
     .wrapper-one {
-        width: 85vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 45%;
+        padding-right: 45%;
     }
 
+    .nav {
+        padding: 30px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .stars {
+        width: 100%;
+    }
+
+
     .wrapper-two {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        width: 85vh;
+        width: 100%;
+        justify-content: center;
+        padding: 180px;
     }
 
     .wrapper-three {
-        width: 85vh;
+        display: block;
+        justify-content: center;
+        padding-left: 45%;
+        padding-right: 45%;
+        
+    }
+
+    .self-care-img {
+        width: 600px;
+    }
+
+    .container-moon {
+        display: flex;
+        width: 190%;
+    }
+
+    .moon-button {
+        display: block;
+        right: 50px;
+        left: 50px;
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 800px) {
 
     .wrapper-one {
         width: 100%;
@@ -213,6 +248,10 @@ button {
     .wrapper-three {
         width: 100%;
         justify-content: center;
+    }
+
+    .self-care-img {
+        width: 700px;
     }
 
 }
